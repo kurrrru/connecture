@@ -58,7 +58,7 @@ body {
 	/* height: 13%; */
 	width: 13%;
 	/* ボタンの角を丸くする */
-	border-radius: 4vb;
+	border-radius: 25%;
 	box-shadow: 0.5vb 0.5vb black;
 }
 .main-cover li button:hover {
