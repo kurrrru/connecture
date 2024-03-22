@@ -6,6 +6,7 @@ main {
 	background-position: center;
 	position: relative;	
 	height: 80vh;
+	width: 100%;
 }
 
 main .title {
@@ -30,13 +31,21 @@ main ul {
 	position: absolute;
 	top: 60%;
 	left: 50%;
-	width: 120vb;
+	width: 111vb;
 	transform:translateX(-50%);
+	padding: 0;
+	text-align: center;
 }
 main li {
 	list-style-type: none;
 	display: inline;
 	padding: 3vb;
+}
+main li :first-child {
+	padding-left: 0;
+}
+main li :last-child {
+	padding-right: 0;
 }
 main li button {
 	background-color: pink;
