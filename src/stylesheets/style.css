@@ -1,0 +1,59 @@
+main {
+	background-image: url("../../img/top_map.png");
+	background-color: gold;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;	
+	height: 80vh;
+}
+
+main .title {
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform:translateX(-50%) translateY(-50%);
+	font-family: 'Comic Sans MS';
+	color: #274313;
+}
+
+main .title h1 {
+	font-size: 10vb;
+}
+
+main .title p {
+	font-size: 5vb;
+}
+
+main ul {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	width: 120vb;
+	transform:translateX(-50%);
+}
+main li {
+	list-style-type: none;
+	display: inline;
+	padding: 3vb;
+}
+main li button {
+	background-color: pink;
+	font-size: 6vb;
+	height: 15vb;
+	width: 15vb;
+	/* ボタンの角を丸くする */
+	border-radius: 4vb;
+	box-shadow: 0.5vb 0.5vb black;
+}
+main li button:hover {
+	background-color: #ff9999;
+	cursor: pointer;
+}
+main li button:active {
+	box-shadow: none;
+	position: relative;
+	top: 0.5vb;
+	left: 0.5vb;
+}

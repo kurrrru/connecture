@@ -1,0 +1,13 @@
+main {
+	background-color: #f5cc50;
+	height: 90vh;
+}
+.description {
+	padding-top: 4vb;
+}
+form table {
+	margin: auto;
+}
+form textarea {
+	resize: none;
+}

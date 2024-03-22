@@ -1,0 +1,36 @@
+header {
+	background-color: #4b4840;
+	font-weight: bold;
+	height: 20vh;
+	position: relative;
+}
+header h1 {
+	color: #f9e29b;
+	font-family: 'Comic Sans MS';
+	float: left;
+	margin: 3vb;
+	font-size: 10vb;
+}
+header ul {
+	list-style-type: none;
+	float: right;
+	margin: 0;
+	position: absolute;
+	top: 11vb;
+	right: 0;
+	font-size: 4vb;
+	font-family: sans-serif;
+}
+header li {
+	display: inline;
+	padding: 3vb;
+}
+header li a {
+	color: #f9e29b;
+	text-decoration: none;
+}
+header li a:hover {
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+}

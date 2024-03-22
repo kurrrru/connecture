@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>お問い合わせ</title>
+		<meta charset="utf-8">
+		<meta lang="ja">
+		<meta name="viewport">
+		<meta content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/src/stylesheets/contact_form/style.css">
+		<link rel="stylesheet" href="/src/stylesheets/header.css">
+		<link rel="stylesheet" href="/src/stylesheets/footer.css">
+	</head>
+	<body>
+		<header>
+			<div class="header-logo">
+				<h1>Connecture</h1>
+			</div>
+			<div class="header-nav">
+				<ul>
+					<li>
+						<a href="/src/html/index.html">HOME</a>
+					</li>
+					<li>
+						<a href="/src/html/about/index.html">ABOUT</a>
+					</li>
+					<li>
+						<a href="/src/html/contact_form/index.html">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<div class="description">
+				<ul>
+					<li>
+						<p>サイトの不具合や要望、ご意見・ご感想などがございましたらこちららお送りください。</p>
+					</li>
+					<li>
+						<p>メールアドレスは必須ではありませんが、メールアドレスが未入力の場合、ご返信ができませんのであらかじめご了承ください。</p>
+					</li>
+					<li>
+						<p>お問い合わせ頂きましても回答ができない場合もございます。ご容赦ください。</p>
+					</li>
+				</ul>
+			</div>
+			<div class="contact-form">
+				<form id="myForm" action="">
+					<table>
+						<tr>
+							<td>お名前</td>
+							<td><input type="text" id="name" name="name"></td>
+						</tr>
+						<tr>
+							<td>メールアドレス</td>
+							<td><input type="email" id="email" name="email"></td>
+						</tr>
+						<tr>
+							<td>お問い合わせ内容</td>
+							<td><textarea name="content" id="content" cols="50" rows="10"></textarea></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="submit" value="送信" onclick="saveFormData"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</main>
+		<footer>
+			<div class="footer-left">
+				<div class="footer-logo">
+					<h1>Connecture</h1>
+				</div>
+				<div class="footer-admin">
+					<p>りんごあめ🍎</p>
+				</div>
+				<div class="footer-credit">
+					<p>© 2024 りんごあめ All Rights Reserved.</p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<div class="footer-nav">
+					<ul>
+						<li>
+							<a href="/src/html/index.html">ホーム</a>
+						</li>
+						<li>
+							<a href="/src/html/about/index.html">サイトの概要</a>
+						</li>
+						<li>
+							<a href="/src/html/contact_form/index.html">お問い合わせ</a>
+						</li>
+						<li>
+							<a href="/src/html/terms_of_service/index.html">利用規約</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
