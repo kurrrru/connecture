@@ -83,6 +83,9 @@ body {
 	background-color: #ffda6a;
 	height: 30vh;
 	width: 100%;
-	padding: 3vb;
+	padding-top: 3vb;
 	font-size: 3vb;
+}
+.short-description p {
+	margin: 3vb;
 }
