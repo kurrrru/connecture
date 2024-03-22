@@ -34,7 +34,7 @@ body {
 	position: absolute;
 	top: 60%;
 	left: 50%;
-	width: 111vb;
+	width: 50%;
 	transform:translateX(-50%);
 	padding: 0;
 	text-align: center;
@@ -53,8 +53,10 @@ body {
 .main-cover li button {
 	background-color: pink;
 	font-size: 6vb;
-	height: 15vb;
-	width: 15vb;
+	padding-top: 13%;
+	position: relative;
+	/* height: 13%; */
+	width: 13%;
 	/* ボタンの角を丸くする */
 	border-radius: 4vb;
 	box-shadow: 0.5vb 0.5vb black;
@@ -68,6 +70,14 @@ body {
 	position: relative;
 	top: 0.5vb;
 	left: 0.5vb;
+}
+.main-cover li button a {
+	color: #274313;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translateX(-50%) translateY(-50%);
 }
 .short-description {
 	background-color: #ffda6a;
